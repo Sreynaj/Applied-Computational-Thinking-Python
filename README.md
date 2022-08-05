@@ -1,1 +1,1 @@
-# Applied-Computatuinal-Thinking-Python
+# Applied-Computational-Thinking-Python
