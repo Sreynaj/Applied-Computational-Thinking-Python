@@ -4,11 +4,12 @@ online_store = {
     "bottle": 10.00
     }
 
-choicekey = int(input("How many keychains will you be purchasing? If not purchasing keychains, enter 0. "))
-choicetshirt = int(input("How many t-shirts will you be purchasing? If not purchasing t-shirts, enter 0. "))
-choicebottle = int(input("How many t-shirts will you be purchasing? If not purchasing water bottles, enter 0. "))
+choicekey = int(input("\nHow many keychains will you be purchasing? \nIf not purchasing keychains, enter 0. "))
+choicetshirt = int(input("\nHow many t-shirts will you be purchasing? \nIf not purchasing t-shirts, enter 0. "))
+choicebottle = int(input("\nHow many t-shirts will you be purchasing? \nIf not purchasing water bottles, enter 0. "))
 
-print("You are purchasing " + str(choicekey) + " keychains, " + str(choicetshirt) + " t-shirts, and " + str(choicebottle) + " water bottles.")
+print("\nYou are purchasing " + str(choicekey) + " keychains, " + str(choicetshirt) 
++ " t-shirts, and " + str(choicebottle) + " water bottles.")
 
 if choicekey > 9:
     online_store['keychain'] = 0.65
